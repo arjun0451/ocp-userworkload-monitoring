@@ -7,7 +7,7 @@
 namespace: ocp-ns-dashboard
 
 image:
-  repository: quay.io/arjun0451/backup/ocp-health-dashboard
+  repository: quay.io/ocptoolkit/ocp-userworkload-monitoring
   tag: "v5"
   pullPolicy: Always
 
