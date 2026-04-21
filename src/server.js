@@ -30,7 +30,7 @@ const K8S_PORT      = process.env.KUBERNETES_SERVICE_PORT || '443';
 const APP_GROUP_LABEL = process.env.APP_GROUP_LABEL || 'appgroup';
 
 // Sentinel value used when a namespace has no app-group label
-const NO_LABEL_VALUE = 'no label'; // unlabelled namespaces fall into 'no label' category
+const NO_LABEL_VALUE = 'default'; // unlabelled namespaces fall into 'default' group
 
 // ─── System namespace exclusion ───────────────────────────────────
 const SYS_EXACT = new Set([
